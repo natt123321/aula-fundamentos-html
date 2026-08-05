@@ -1,0 +1,9 @@
+Primeira mudança: Fundo em degradê. Antes era background-color: lightpink;
+agora é background: linear-gradient(lightpink, #ffeef5);
+para deixar o fundo em um degradê e deixar mais bonito
+
+Segunda mudança: Espaço entre as imagens. Adcionei gap: 25px; na classe .galeria
+para deixar um espaço igual entre as imagens
+
+Terceira mudança: Sombra nas imagens. Adicionei box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+para colocar uma sombra atrás da imagens 
