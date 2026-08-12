@@ -4,24 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <style>
-        div {
-            width: 300px;
-            height: 300px;
-            border: 10px dashed;
-            border-color: rgb(254, 127, 225);
-            margin-left: 50px;
-            margin-top: 200px;
-            padding: 70px;
-        }
+    /*Faz o reset da margin e padding dos elementos*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(250, 238, 247);
+        font-family: "Indie Flower", cursive;
+    }
+
+    h1, p {
+        padding: 20px;
+    }
+    h2 {
+        padding: 10px;
+    }
+
+    img {
+        width: 250px;
+        border-radius: 50%;
+    }
+    
+    .bio {
+        background-color: rgb(253, 218, 239);
+        padding: 20px;
+        border-radius: 10px;
+        width: 500px;
+        margin: auto;
+
+        text-align: center;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .logos {
+        width: 32px;
+    }
+
         </style>
 <body>
-    <div class = "div">
-    <p> Testando padding</p>
-</div>
-<div> Testando1</div>
-<div> Testando2 </div>
+
+    <div class = "bio">
+        <h1> Oii, sou a Natalia ^_^ </h1>
+        <img src="foto.jpg" alt="Minha foto">
+
+        <p> Tenho 16 anos, sou estudante de ensino médio no Sesi/Senai </p>
+        <h2> O que gosto de fazer</h2>
+        <ul>
+            <li> Ilustração </li>
+            <li> Ler </li>
+            <li> Jogar </li>
+            <li> Música </li>
+            <li> Sair com amigos </li>
+            <li> Fazer bolachas </li>
+        </ul>
+
+         <h2> Minhas especialidades </h2>
+        <ul>
+            <li> Ilustração </li>
+            <li> Programação -ainda aprendendo- </li>
+            <li> Design </li>
+            <li> Inglês </li>
+            <li> Pacote Office básico </li>
+        </ul>
+
+        <br/>
+
+        <a href="" target="_blank"> 
+            <img class="logos" src="github.png" alt="GitHub">
+        </a>
+
+        &nbsp;&nbsp;
+
+        <a href="" target="_blank">
+            <img class="logos" src="linkedin.png" alt="Linkedin">
+        </a>
+    
+    </div>
+
 </body>
 
 </html>
