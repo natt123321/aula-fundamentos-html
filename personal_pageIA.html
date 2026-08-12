@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Page</title>
+
+    <!-- Fonte do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <style>
+        /* Remove margens e espaçamentos padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #faeef7;
+            font-family: "Indie Flower", cursive;
+            color: #5f4b58;
+
+            /* Centraliza o cartão */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+        }
+
+        .bio {
+            background-color: #fddaf0;
+            width: 100%;
+            max-width: 550px;
+
+            padding: 30px;
+            border-radius: 20px;
+
+            text-align: center;
+
+            box-shadow: 0 8px 20px rgba(150, 100, 130, 0.15);
+        }
+
+        h1 {
+            color: #a65386;
+            margin-bottom: 15px;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #a65386;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .foto {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+
+            border: 5px solid #ffffff;
+
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            padding: 4px;
+            font-size: 17px;
+        }
+
+        /* Links das especialidades */
+        li a {
+            color: #a65386;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        /* Efeito ao passar o mouse */
+        li a:hover {
+            color: #7d3d66;
+        }
+
+        /* Redes sociais */
+        .redes {
+            margin-top: 25px;
+        }
+
+        .redes a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 0 8px;
+        }
+
+        .logos {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+
+            transition: transform 0.2s;
+        }
+
+        /* Efeito ao passar o mouse */
+        .logos:hover {
+            transform: scale(1.15);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bio">
+
+        <h1>Oii, sou a Natalia ^_^</h1>
+
+        <img class="foto" src="foto.jpg" alt="Foto da Natalia">
+
+        <p>
+            Tenho 16 anos, sou estudante do ensino médio no Sesi/Senai.
+        </p>
+
+        <h2>O que gosto de fazer</h2>
+
+        <ul>
+            <li>Ilustração</li>
+            <li>Ler</li>
+            <li>Jogar</li>
+            <li>Música</li>
+            <li>Sair com amigos</li>
+            <li>Fazer bolachas</li>
+        </ul>
+
+        <h2>Minhas especialidades</h2>
+
+        <ul>
+            <li>
+                <a href="https://youtu.be/PmefpISZ7Ew?si=6aIQelBIAtlHpcSV" target="_blank">
+                    Programação - ainda aprendendo -
+                </a>
+            </li>
+
+            <li>
+                <a href="https://youtu.be/EkdVg9u88-0?si=gYSCcpqCSD2z3GOz" target="_blank">
+                    Design - ainda aprimorando -
+                </a>
+            </li>
+
+            <li>
+                <a href="https://youtu.be/_WF5N3jejKg?si=jRPAsh2zAI_Z8dh5" target="_blank">
+                    Inglês
+                </a>
+            </li>
+
+            <li>
+                <a href="https://youtu.be/_1ls9OeBIvU?si=IiUdpIcVQNgdcijF" target="_blank">
+                    Pacote Office básico
+                </a>
+            </li>
+        </ul>
+
+        <div class="redes">
+
+            <a href="https://github.com/natt123321" target="_blank">
+                <img class="logos" src="github.png" alt="GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/natalia-gamero-scognamiglio-600559409" target="_blank">
+                <img class="logos" src="linkedin.png" alt="LinkedIn">
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
